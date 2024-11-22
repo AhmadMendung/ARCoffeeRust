@@ -6,15 +6,15 @@ Augmented Reality application to detect coffee rust disease in coffee plants
 This project leverages Augmented Reality (AR) and Artificial Intelligence (AI) to develop an application for detecting and managing coffee rust disease in coffee plants. By integrating AR visualization with a deep learning model, the application enables coffee farmers to perform real-time leaf health analysis and assess the severity of coffee rust through an AR overlay.
 
 ## Features
-- Real-Time Leaf Health Scanning: Detect whether a coffee leaf is healthy or affected by rust.
-- AR Overlay: Display rust-affected areas with intensity levels using a red marker.
-- User-Friendly Interface: Navigation through Home, About, How to Use, Coffee Plant Care, and Scan pages.
-- Actionable Insights: Provides rust severity levels to guide treatment and management.
+- **Real-Time Leaf Health Scanning:** Detect whether a coffee leaf is healthy or affected by rust.
+- **AR Overlay:** Display rust-affected areas with intensity levels using a red marker.
+- **User-Friendly Interface:** Navigation through Home, About, How to Use, Coffee Plant Care, and Scan pages.
+- **Actionable Insights:** Provides rust severity levels to guide treatment and management.
 
 ## System Requirements
-- Unity Version: Ensure Unity Editor 2021 or higher.
-- Dependencies: Vuforia SDK for AR and Unity Barracuda for ONNX model integration.
-- Android Device: Any Android devices
+- **Unity Version:** Ensure Unity Editor 2021 or higher.
+- **Dependencies:** Vuforia SDK for AR and Unity Barracuda for ONNX model integration.
+- **Android Device:** Any Android devices
 
 ## How It Works
 - Launch the application and navigate to the Scan page.
@@ -23,10 +23,16 @@ This project leverages Augmented Reality (AR) and Artificial Intelligence (AI) t
 - **Healthy:** No rust detected.
 - **Rust:** Rust severity highlighted with red markers.
 
-33 Key Technologies
-- Augmented Reality: Real-time AR visualization using Unity and Vuforia.
-- Deep Learning: Teachable Machine model converted to ONNX for Unity integration.
-- C++: Backend scripting for app functionality.
+## Training the Dataset
+- You can use a CNN approach. Additionally, you can use Teachable Machine tool which is easier, faster, and more accurate.
+- This is based on my own personal experience. When I trained the data, Teachable Machine gives a more accurate result
+- Using CNN, you can do in Google Colaboratory
+- Techable Machine: https://teachablemachine.withgoogle.com/
+
+## Key Technologies
+- **Augmented Reality:** Real-time AR visualization using Unity and Vuforia.
+- **Deep Learning:** Teachable Machine model converted to ONNX for Unity integration.
+- **C++:** Backend scripting for app functionality.
 
 ## Limitations
 - Requires digital images for validation due to limited access to fresh coffee leaves.
