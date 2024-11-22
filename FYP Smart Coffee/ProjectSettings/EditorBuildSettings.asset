@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomePage.unity
+    guid: 2a1ef297ba269a2478a5311cae499c7c
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 761facc63ede10149a048fca2f7942e3
+  - enabled: 1
+    path: Assets/Scenes/Coffee Plant Care.unity
+    guid: 837a1e1ff2f27454f9e133fa4b0f1e2e
+  - enabled: 1
+    path: Assets/Scenes/How To Use.unity
+    guid: fe28e64a8d21694498fbad77ccc82f00
+  - enabled: 0
+    path: Assets/Scenes/Scanning 3.unity
+    guid: a7da65a51e8b30942a21489f122c159e
+  - enabled: 1
+    path: Assets/Scenes/Scanning 03.unity
+    guid: 09bfa67585f3e9d4dbae8e189d35fcc8
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: 073c7299f9ee0c3499a2f9fb217ce3ef
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5f0f011934df4f0418cde44769304b5f, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0832da92c0e92df448a95bfaf3bac45a, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: bb1b7466447c0ad4bb5dcd3cc3e825c1, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 588ceef482767cc479f4cfe9a3f6a0d8, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3b0d0e19df89e594ab2c7f2fc0b0985f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 456467fe2142cd7448cd3f279f28af72, type: 2}
